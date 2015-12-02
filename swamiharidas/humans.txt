@@ -1,0 +1,14 @@
+/* TEAM */
+	Developer:Mohit Tyagi
+	Contact: me [at] mohityagi.com
+	Twitter: @codeoholic
+	From:New Delhi, India
+
+	Web designer: Dhritiman Deb Pillai
+	Contact: dhritiman [at] studioeksaat.com
+	From:New Delhi, India
+
+/* SITE */
+	Last update:2014/12/18
+	Doctype:HTML5
+	IDE: Sublime Text, CyberDuck, Photoshop

@@ -1,0 +1,330 @@
+body{
+	background-color: #555;
+}
+#facebookImage.invert {
+	background: url(../images/facebookWhite.png);
+}
+#youtubeImage.invert {
+	background: url(../images/youtubeWhite.png);
+}
+.whiteSpaceResponsive{
+	display: none;
+}
+.navigationTop{
+	/*top: 30px;
+	left: -383px !important;
+	width: 766px !important;*/
+}
+#responsivePosition{
+	margin-top:150px;
+	margin-bottom:40px;
+}
+.f60{
+	font-size:60px;
+}
+#displayGalleryMobile{
+	display: none;
+}
+@media only screen and (max-device-width: 480px) {
+	body{
+		background: none;
+	}
+	.whiteBox{
+		width: 100%;
+		background-color: #96a241;
+	}
+	.split50{
+		width: 100%;
+	}
+	#logo{
+		/*width: 100px;*/
+		margin: 0;
+	}
+	.occupy80{
+		width: 100%;
+	}
+	.book{
+		background-color: #546D2F;
+	}
+	.bookText{
+		color: #FFF;
+	}
+	#logo{
+		background-size:contain;
+		width: 100px;
+		position: absolute;
+		left: 20px;
+		top: 30px;
+	}
+	#logoI{
+		background: url(../images/logoInverted.png) no-repeat;
+		height: 70px;
+		background-size: contain;
+		width: 80px;
+		position: absolute;
+		left: 10px;
+		top: 10px;
+	}
+	#topBackground{
+		background: url(../images/imageGradientSmall.png) no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 200px;
+		position: relative;
+	}
+	.seasonBook{
+		background-color: #415E2E;
+		position: absolute;
+		width: 30px;
+		height: 100%;
+		right: 0;
+		top: 0;
+		border-left: 2px solid #fff;
+	}
+	.seasonPass{
+		font-size: 35px;
+	}
+	.mtop10{
+		margin-top: 2px;
+	}
+	.contactInfo{
+		background-color: #343534;
+		margin-top: 2px;
+		color: #FFF;
+		font-size: 10px;
+		height: 50px;
+	}
+	table tr{
+		border: none;
+	}
+	.social img:first-child{
+		width: 10px;
+	}
+	.social img{
+		width: 20px;
+	}
+	#navigation{
+		position: fixed;
+		width: 155px;
+		min-height: 100% !important;
+		background-color:#334A24;
+		z-index: 5;
+		left: -1550px;
+		top: 0;
+	}
+	#header{
+		border-bottom: 2px solid #96a241;
+	}
+	#navigationIcon{
+		background: url(../images/navigation.png);
+		width: 60px;
+		height: 50px;
+		background-size: contain;
+		float: left;
+		z-index: 4;
+	}
+	#navigation ul li{
+		background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 1px dashed #FFF;
+	display: block;
+	width: 120px;
+	margin: 0 15px;
+	text-align: left;
+	padding: 10px 0px;
+	}
+	#exceptNavigation{
+		overflow: hidden;
+		width: 100% !important;
+	}
+	#layerOver{
+		background-color: rgba(0,0,0,.6);
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	#subHeader{
+		width: 100%;
+		background-color: #96a241;
+		height: 80px;
+		position: relative;
+	}
+	#logoBlock{
+		background-color: #FFF;
+		width: 100px;
+		height: 100%;
+		float: left;
+	}
+	#pageTitle{
+		/*float: right;*/
+		color: #FFF;
+		bottom: 5px;
+		position: absolute;
+		right: 10px;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: 700;
+	}
+	.seasonWhiteBox{
+		background: #557d3d;
+	}
+	.venueBox{
+		height: 30px;
+		font-size:11px;
+		background: #96A241;
+	}
+	.venueBoxText{
+		padding: 8px 0px;
+		font-size: 9px;
+	}
+	.artistText{
+		font-size: 8px;
+	}
+	.contactBox{
+		float: left;
+	}
+	.alignPhone{
+		display: inline-block;
+	}
+	#seperatePhone{
+		display: inline-block;
+	}
+	#navigation ul a {
+		display: inline;
+		float: left;
+		background-color: transparent; 
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		padding: 0; 
+		border-right: none; 
+		text-decoration: none;
+	}
+	.split50{
+		height: auto;
+	}
+
+	/*UPDATED*/
+	#slides.slides-container img{
+		display: none;
+	}
+	.slides-pagination{
+		display: none;
+	}
+	#slidersContainer{
+		display: none;
+	}
+	#header{
+		display: block;
+	}
+	body{
+		background-color: #fff;
+	}
+	#stackDays{
+		width: 100% !important;
+		margin: 0px;
+	}
+	#contactBox{
+		position: relative;
+		right: 0;
+		top: 0;
+		width: 100%;
+	}
+	#sponsoredBy{
+		display: none;
+	}
+	.whiteBorder{
+		border: none;
+		padding: 0;
+	}
+	#connectWithUs{
+		font-weight: 700;
+		font-size: 13px;
+	}
+	.whiteSpaceResponsive{
+		display: inline-block;
+	}
+	.whiteSpaceResponsive.block{
+		display: block;
+	}
+	.alignPhone{
+		font-style: italic;
+	}
+	#navigation{
+		margin-left: 0;
+	}
+	#navigation ul{
+		top: 40px;
+	}
+	#close{
+		display: block;
+	}
+	.navigationTop{
+		width: 155px !important;
+	}
+	.contactAlignTopRight{
+		background-color: #343534;
+		margin-top: 2px;
+		color: #FFF;
+		font-size: 10px;
+		position: relative;
+	}
+	.contactAlignTopRight .whiteBorder{
+		border: none;
+		padding: 0;
+	}
+	#navigation ul a.active{
+		background-color: transparent;
+	}
+	.span3,.span6,.span9,.span4,.span8{
+		width: 100%;
+	}
+	#responsiveLogo{
+		display: none;
+	}
+	#responsivePosition{
+		margin-top: 60px !important;
+		margin-bottom: 20px;
+	}
+	#captionRight{
+		margin-top: 0px;
+	}
+	.f30{
+		font-size: 24px;
+	}
+	.contactAlignTopRight #contactBox{
+		color: #fff;
+		right: 0;
+		top: 0;
+	}
+	#facebookImage{
+		background: url(../images/facebookWhite.png);
+	}
+	#youtubeImage {
+		background: url(../images/youtubeWhite.png);
+	}
+	table{
+		font-size: 10px;
+	}
+	.squaredFour, .squaredThree, .squaredTwo, .squaredOne {
+		width: 50px;
+	}
+	select{
+		width: 50px;
+	}
+	.squaredFour label, .squaredThree label, .squaredTwo label, .squaredOne label{
+		width: 50px;
+	}
+	.f60{
+		font-size:35px;
+	}
+	.mtopR{
+		margin-top: 10px;
+	}
+	#displayGalleryWeb{
+		display: none;
+	}
+	#displayGalleryMobile{
+		display: block;
+	}
+}

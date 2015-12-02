@@ -1,0 +1,209 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.occupy80{
+	width:80%;
+}
+.book{
+	position: absolute;
+	width: 30px;
+	height: 100%;
+	background: #FFF;
+	right: 0;
+	top: 0;
+	border-left: 2px solid #fff;
+}
+.bookText{
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	position: relative;
+	top: 30px;
+	color: #414042;
+}
+.seasonPass{
+	display:inline-block;
+	padding: 10px;
+	font-size: 13px;
+	line-height: 18px;
+	font-size: 48px;
+	line-height: 50px;
+}
+.navigationAnimation{
+	left: 0;
+}
+.transition {
+	/*-webkit-transition: all .4s ease-out;*/
+	/*-moz-transition: all .4s ease-out;*/
+	/*transition: all .4s ease-out;*/
+	transform: translate3d(200px,0,0);
+	-webkit-transform: translate3d(200px,0,0);
+	-moz-transition: translate3d(200px,0,0);
+}
+.none{
+	opacity: 0;
+}
+.display{
+	opacity: 1;
+}
+#close{
+	background: url(../images/cross.png) no-repeat;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+	margin: 15px 0 0 15px;
+}
+	
+/*@media (min-width: 1200px){*/
+	body{
+		/*background: none;*/
+	}
+	#header{
+		display: none;
+	}
+	#close{
+		display: none;
+	}
+	#navigation {
+		position: absolute;
+		bottom: 20px;
+		margin-left: 50%;
+		/*left: -329px;
+		width: 658px;*/
+		/*Invites removed*/
+		left: -255px;
+		width: 510px;
+	}
+	#logo{
+		/*margin: 30px 0 0px 190px;*/
+		margin: 30px 0 0px 90px;
+	}
+	#stackDays{
+		width: 450px;
+		margin: 40px 0 0 60px;
+	}
+	.seasonWhiteBox{
+		background: rgba(255, 255, 255, 0.8);
+	}
+	.venueBox{
+		height: 45px;
+		font-size: 13px;
+		background: rgba(255, 255, 255, 0.8);
+	}
+	.venueBoxText{
+		padding: 15px 0;
+	}
+	.artistText{
+		font-size: 11px;
+	}
+	#contactBox{
+		width: 225px;
+		color: #fff;
+		position: absolute;
+		right: 80px;
+		top: 50px;
+	}
+	.whiteBorder{
+		border: 1px solid #fff;
+		padding: 10px;
+	}
+	#seperatePhone{
+		display: none;
+	}
+/*}*/
+.seasonWhiteBox{
+	position: relative;
+}
+.relative{
+	position: relative;
+}
+.center{
+	text-align: center;
+}
+.artistText{
+	display: inline-block;
+	padding: 5px;
+	line-height: 18px;
+}
+.navigationTop{
+	top: 30px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+
+
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.contactAlignTopRight{
+	position:absolute;
+	top:0;
+	right:0;
+}
+.contactAlignTopRight #contactBox{
+	color: #6d6e71;
+	right: 10px;
+	top: 20px;
+}
+.contactAlignTopRight .whiteBorder{
+	border: 2px solid #6d6e71;
+	margin-top: -2px;
+}
+.shareButtons ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.shareButtons ul a li{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.shareButtons ul a li img{
+	border: 2px solid #6d6e71;
+	padding: 5px 8px;
+	margin-right: -2px;
+}
+#captionRight{
+	color:#65803E;
+	font-weight:700;
+	font-style:italic;
+	font-size:30px;
+	border-bottom:1px solid #65803E;
+	padding: 10px;
+	border-top:1px solid #65803E;
+	margin-top:93px;
+}
+
+/*EDITED ON 19th*/
+#facebookImage{
+	background: url(../images/facebookLogo.png);
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+#youtubeImage{
+	background: url(../images/youtubeLogo.png);
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+#facebookImage.invert{
+	background: url(../images/facebookWhite.png);
+}
+#youtubeImage.invert{
+	background: url(../images/youtubeWhite.png);
+}

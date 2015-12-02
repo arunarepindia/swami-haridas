@@ -1,0 +1,12 @@
+Options -Indexes
+
+RewriteEngine on
+
+RewriteRule ^about$ about.html [QSA]
+RewriteRule ^artists$ artist.html [QSA]
+#Killing Invite page. Redirecting it to homepage
+#RewriteRule ^invite$ invite.php [QSA]
+RewriteRule ^invite$ index.html [QSA]
+RewriteRule ^contact$ contact.html [QSA]
+RewriteRule ^thankyou$ confirm.html [QSA]
+RewriteRule ^gallery$ gallery.html [QSA]
